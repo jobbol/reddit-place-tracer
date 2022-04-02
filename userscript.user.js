@@ -7,6 +7,7 @@
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
+// @license      MIT 
 // ==/UserScript==
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
@@ -18,11 +19,11 @@ if (window.top !== window.self) {
         let root = document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0];
         let canvas = root.getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0];
         let buttonRow = document.createElement("div");
-
+ 
         buttonRow.id = "visibility-toggle-row";
         buttonRow.style = "position: absolute; left: 0; top: 0; margin: 0.75em; margin-left: 7em;";
         root.appendChild(buttonRow);
-
+ 
         
         const imgs = [
             {
@@ -40,8 +41,8 @@ if (window.top !== window.self) {
             },
             */
         ];
-
-
+ 
+ 
         imgs.forEach(img => {
             img.overlay = document.createElement("img");
             img.overlay.src = img.src;
@@ -49,30 +50,30 @@ if (window.top !== window.self) {
             img.overlay.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: "+canvasWidth+"px;height: "+canvasHeight+"px;opacity:0.90;";  
             console.log(img.overlay);
             canvas.appendChild(img.overlay);
-
+ 
             img.button = document.createElement("button");
             img.button.innerText = img.name;
             img.button.style.margin = '1em';
             img.button.style.background = 'white';
             img.button.style.borderRadius = '2em';
             img.button.style.height = '30px';
-
+ 
             buttonRow.appendChild(img.button);
         });
-
+ 
         root.addEventListener('click', function (event) {
             if (!event.target.matches('#visibility-toggle-row button')) {
                 return;
             }
-
+ 
             let img = imgs.find(img => img.name === event.target.innerText);
-
+ 
             if (!img) {
                 return;
             }
-
+ 
             event.preventDefault();
-
+ 
             if (img.overlay.style.visibility != 'hidden') {
                 img.overlay.style.visibility = 'hidden';
                 img.button.style.background = 'darkgray';
@@ -82,9 +83,9 @@ if (window.top !== window.self) {
                 img.button.style.background = 'white';
                 return;
             }
-
+ 
         });//end event click
-
+ 
     }, false);//end event load
-
+ 
 }//end window top
