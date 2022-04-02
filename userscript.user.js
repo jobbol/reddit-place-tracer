@@ -31,7 +31,7 @@ if (window.top !== window.self) {
             },
             {
                 name: 'Allies',
-                src: 'https://cdn.discordapp.com/attachments/900981515889049680/959935582887354408/allies-dotted.png',
+                src: 'https://cdn.discordapp.com/attachments/900981515889049680/959937598615339028/allies-dotted.png',
             },
             /*Copy, paste, and add new layers here.
             {
