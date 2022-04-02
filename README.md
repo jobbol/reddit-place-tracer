@@ -1,6 +1,6 @@
 **Reddit Place Tracer** is a browser based userscript for the 2022 Reddit /r/Place project which adds a transparent image on top of the canvas to aid communities with drawing the same image.  It shows how the canvas should look, where each pixel goes, and what color. The user must manually click on these spots.  It is *not an automated bot* and does not break any rules.
 
-![alt text](/images/demo1.gif?raw=true)
+![Demo of the program](/images/demo1.gif?raw=true)
 
 ## Installation
 1. Download the [TamperMonkey](https://www.tampermonkey.net/) extension for your web browser.
@@ -26,6 +26,7 @@ If opening the script did not open in TamperMonkey:
 	* Pixels in the canvas that do not match up with the template will be marked with tiny dots.
 	* Correct these by placing new pixels on top.  Again, the script will not do this automatically.
 
+![How to mark each spot](/images/usage1.png?raw=true)
 
 ## Creating or modifying templates (community leaders only)
 Tracing templates must be PNGs at three times the current canvas size.  Use a site such as imgur.com or Discord attachments to host your templates online.
