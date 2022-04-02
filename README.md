@@ -3,16 +3,22 @@
 ![Demo of the program](/images/demo1.gif?raw=true)
 
 ## Installation
-1. Download the [TamperMonkey](https://www.tampermonkey.net/) extension for your web browser.
+1. Download the [TamperMonkey](https://www.tampermonkey.net/) extension for your web browser.![](/images/install-tampermonkey.png?raw=true)
+	
 2. Create a new script.
    1. Open the userscript from this **[link](https://github.com/lobcog/reddit-place-tracer/raw/main/userscript.user.js)**.  
    2. If it does not open in TamperMonkey skip to manual installation.
    3. Otherwise click **install**.
-3. Enable updates.
+
+![](/images/install-script.png?raw=true)
+
+3. Enable updates. 
    1. Go to Extensions > TamperMonkey > dashboard.
    2. Click on the installed script /r/Place Enter the Gungeon template.
    3. Go to settings tab.
    4. Click check for updates and save.
+
+![](/images/auto-update.png?raw=true)
 
 ### Manual installation
 If opening the script did not open in TamperMonkey:
@@ -67,4 +73,4 @@ Tracing templates must be PNGs at three times the current canvas size.  Use a si
 Possibly looking to add a download button for easier template creation and a ghost draw mode to help with planning.  Time has been very stretched though.
 
 ## Credit
-This is a fork of oralekin's original userscript.
+This is a fork of oralekin's [original userscript](https://gist.github.com/oralekin/240d536d13d0a87ecf2474658115621b).
