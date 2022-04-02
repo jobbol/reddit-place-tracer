@@ -73,4 +73,4 @@ Tracing templates must be PNGs at three times the current canvas size.  Use a si
 Possibly looking to add a download button for easier template creation and a ghost draw mode to help with planning.  Time has been very stretched though.
 
 ## Credit
-This is a fork of oralekin's original userscript.
+This is a fork of oralekin's [original userscript](https://gist.github.com/oralekin/240d536d13d0a87ecf2474658115621b).
