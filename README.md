@@ -5,7 +5,7 @@
 1. Download the [TamperMonkey](https://www.tampermonkey.net/) extension for your web browser.
 2. Create a new script.
    1. Extensions > TamperMonkey > Create a new script
-   2. Copy all text of the userscript from this link.
+   2. Copy all text of the userscript from this [link](https://github.com/lobcog/reddit-place-tracer/raw/main/userscript.user.js).
    3. Paste text into the file.
    4. Save file.
 3. Visit [/r/place](https://www.reddit.com/r/place/).  
