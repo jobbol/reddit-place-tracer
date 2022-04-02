@@ -36,8 +36,8 @@ Tracing templates must be PNGs at three times the current canvas size.  Use a si
 4. Click record or hit **ctrl + E**.
 5. Refresh the page with **F5**.
 6. Wait for the canvas to load then immediately stop recording **ctrl + E**.
-7. In the filter type in **png**.
-8. Sort by largest size.
+7. In the filter type in **png**.  
+8. Sort by largest size and look for names starting with 16489.
 9. Click on each image and preview.  Find the canvas images.  They are 1000 x 1000px.
 10. Download these for editting.
 
@@ -61,4 +61,4 @@ Tracing templates must be PNGs at three times the current canvas size.  Use a si
 Possibly looking to add a download button for easier template creation and a ghost draw mode to help with planning.  Time has been very stretched though.
 
 ## Credit
-oralekin for originally creating this script.
+This is a fork of oralekin's original userscript.
