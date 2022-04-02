@@ -7,8 +7,12 @@
 2. Create a new script.
    1. Open the userscript from this **[link](https://github.com/lobcog/reddit-place-tracer/raw/main/userscript.user.js)**.  
    2. If it does not open in TamperMonkey skip to manual installation.
-   3. Otherwise click **install** and you are done.
-3. If updates occur TamperMonkey will automatically listen for these and install.
+   3. Otherwise click **install**.
+3. Enable updates.
+   1. Go to Extensions > TamperMonkey > dashboard.
+   2. Click on the installed script /r/Place Enter the Gungeon template.
+   3. Go to settings tab.
+   4. Click check for updates and save.
 
 ### Manual installation
 If opening the script did not open in TamperMonkey:
