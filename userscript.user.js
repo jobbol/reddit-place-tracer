@@ -22,11 +22,11 @@ if (window.top !== window.self) {
         const imgs = [
             {
                 name: 'Bullet Kin',
-                src: 'https://cdn.discordapp.com/attachments/900981515889049680/959720519027007488/kin-dotted.png',
+                src: 'https://cdn.discordapp.com/attachments/900981515889049680/959885545620787290/kin-dotted.png',
             },
             {
                 name: 'Allies',
-                src: 'https://cdn.discordapp.com/attachments/900981515889049680/959720518834081792/allies-dotted.png',
+                src: 'https://cdn.discordapp.com/attachments/900981515889049680/959885545348141097/allies-dotted.png',
             },
             /*Copy, paste, and add new layers here.
             {
