@@ -12,8 +12,8 @@ if (window.top !== window.self) {
     window.addEventListener('load', () => {
         
         //If canvas stretches again, the width and height must be changed here.
-        const canvasWidth = 1000;
-        const canvasHeight = 2000;
+        const canvasWidth = 2000;
+        const canvasHeight = 1000;
         
         let root = document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0];
         let canvas = root.getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0];
