@@ -10,6 +10,11 @@
 // ==/UserScript==
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
+        
+        //If canvas stretches again, the width and height must be changed here.
+        const canvasWidth = 1000;
+        const canvasHeight = 2000;
+        
         let root = document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0];
         let canvas = root.getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0];
         let buttonRow = document.createElement("div");
@@ -41,7 +46,7 @@ if (window.top !== window.self) {
             img.overlay = document.createElement("img");
             img.overlay.src = img.src;
             img.overlay.id = img.id;
-            img.overlay.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;opacity:0.75;";
+            img.overlay.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: "+canvasWidth+"px;height: "+canvasHeight+"px;opacity:0.90;";  
             console.log(img.overlay);
             canvas.appendChild(img.overlay);
 
