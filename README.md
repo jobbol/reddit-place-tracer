@@ -4,18 +4,26 @@
 ## Installation
 1. Download the [TamperMonkey](https://www.tampermonkey.net/) extension for your web browser.
 2. Create a new script.
-   1. Extensions > TamperMonkey > Create a new script
-   2. Copy all text of the userscript from this [link](https://github.com/lobcog/reddit-place-tracer/raw/main/userscript.user.js).
-   3. Paste text into the file.
-   4. Save file.
-3. Visit [/r/place](https://www.reddit.com/r/place/).  
-4. If successfully installed, you will see additional buttons in the top left corner next to the close button.
+   1. Open the userscript from this **[link](https://github.com/lobcog/reddit-place-tracer/raw/main/userscript.user.js)**.  
+   2. If it does not open in TamperMonkey skip to manual installation.
+   3. Otherwise click **install** and you are done.
 3. If updates occur TamperMonkey will automatically listen for these and install.
 
+### Manual installation
+If opening the script did not open in TamperMonkey:
+1. Go to Extensions > TamperMonkey > Create a new script.
+2. Copy all text of the userscript from this [link](https://github.com/lobcog/reddit-place-tracer/raw/main/userscript.user.js).
+3. Paste text into the file.
+4. Save file with **ctrl + s**.
+5. TamperMonkey will not update manually copied scripts.
+
 ## Usage
-* The buttons in the top left will toggle each tracing template on and off.
-* Pixels in the canvas that do not match up with the template will be marked with tiny dots.
-* Correct these by placing new pixels on top.  Again, the script will not do this automatically.
+
+1. Visit [/r/place](https://www.reddit.com/r/place/).  
+2. If successfully installed, you will see additional buttons in the top left corner next to the close button.
+	* The buttons in the top left will toggle each tracing template on and off.
+	* Pixels in the canvas that do not match up with the template will be marked with tiny dots.
+	* Correct these by placing new pixels on top.  Again, the script will not do this automatically.
 
 
 ## Creating or modifying templates (community leaders only)
