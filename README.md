@@ -3,30 +3,31 @@
 ![Demo of the program](/images/demo1.gif?raw=true)
 
 ## Installation
-1. Download the [TamperMonkey](https://www.tampermonkey.net/) extension for your web browser.![](/images/install-tampermonkey.png?raw=true)
+1. Download the [TamperMonkey](https://www.tampermonkey.net/) extension for your web browser.
+<img src="/images/install-tampermonkey.png?raw=true" width=20% height=20%>
 	
-2. Create a new script.
+2. Add the script.
    1. Open the userscript from this **[link](https://github.com/lobcog/reddit-place-tracer/raw/main/userscript.user.js)**.  
    2. If it does not open in TamperMonkey skip to manual installation.
    3. Otherwise click **install**.
 
-![](/images/install-script.png?raw=true)
+<img src="/images/install-script.png?raw=true" width=20% height=20%>
 
-3. Enable updates. 
-   1. Go to Extensions > TamperMonkey > dashboard.
-   2. Click on the installed script /r/Place Enter the Gungeon template.
-   3. Go to settings tab.
-   4. Click check for updates and save.
 
-![](/images/auto-update.png?raw=true)
 
-### Manual installation
-If opening the script did not open in TamperMonkey:
+### Manual script installation
+If the above directions did not install the script:
 1. Go to Extensions > TamperMonkey > Create a new script.
 2. Copy all text of the userscript from this [link](https://github.com/lobcog/reddit-place-tracer/raw/main/userscript.user.js).
 3. Paste text into the file.
 4. Save file with **ctrl + s**.
 5. TamperMonkey will not update manually copied scripts.
+
+### Updating
+TamperMonkey is supposed to automatically check the script for updates, but it doesn't always work.  To force an update do the following:
+1. Open the userscript from this **[link](https://github.com/lobcog/reddit-place-tracer/raw/main/userscript.user.js)**.  
+2. Click update.
+3. If you have [/r/place](https://www.reddit.com/r/place/) open, you need to do a hard refresh **ctrl + F5**.
 
 ## Usage
 
