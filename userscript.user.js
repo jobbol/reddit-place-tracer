@@ -34,6 +34,10 @@ if (window.top !== window.self) {
                 name: 'Allies',
                 src: 'https://cdn.discordapp.com/attachments/900981515889049680/959940932839567390/allies-dotted.png',
             },
+            {
+                name: 'DDNet',
+                src: 'https://cdn.discordapp.com/attachments/900981515889049680/959981392492638228/ddnet-dotted.png',
+            },
             /*Copy, paste, and add new layers here.
             {
                 name: '', //text for the button togglers in top left.
