@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         /r/Place Enter the Gungeon template
 // @namespace    http://tampermonkey.net/
-// @version      1.10
+// @version      1.11
 // @description  Draws a template on top of the canvas showing where to click and what colors to use.  Does not do any clicking for you.
 // @author       lob, oralekin
 // @match        https://hot-potato.reddit.com/embed*
@@ -36,7 +36,7 @@ if (window.top !== window.self) {
             },
             {
                 name: 'DDNet',
-                src: 'https://cdn.discordapp.com/attachments/900981515889049680/959981392492638228/ddnet-dotted.png',
+                src: 'https://cdn.discordapp.com/attachments/900981515889049680/959984054906806272/ddnet-dotted.png',
             },
             /*Copy, paste, and add new layers here.
             {
