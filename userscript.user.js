@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         /r/Place Enter the Gungeon template
 // @namespace    http://tampermonkey.net/
-// @version      1.14
+// @version      1.15
 // @description  Draws a template on top of the canvas showing where to click and what colors to use.  Does not do any clicking for you.
 // @author       lob, oralekin, lynn
 // @match        https://hot-potato.reddit.com/embed*
@@ -81,10 +81,12 @@ if (window.top !== window.self) {
             if (img.overlay.style.visibility != 'hidden') {
                 img.overlay.style.visibility = 'hidden';
                 img.button.style.background = 'darkgray';
+                img.button.style.textDecoration = 'line-through';
                 return;
             } else {
                 img.overlay.style.visibility = 'visible';
                 img.button.style.background = 'white';
+                img.button.style.textDecoration = 'auto';
                 return;
             }
  
