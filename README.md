@@ -60,12 +60,18 @@ Tracing templates must be PNGs at three times the current canvas size.  Use a si
 4. Dither your template.  For each canvas pixel, erase everything but the center. So that when the template is placed on top of the canvas, the canvas can be see through the transparency.  You should have a bunch of dots.  Refer to other templates to see what it looks like.
 5. Save as transparent PNGs.
 
-### Add templates to script
-1. In your web browser open Extensions > TamperMonkey > dashboard.
-2. Find this array `const imgs`.
-3. Replace the objects with your templates.
-	* name is used for the button togglers in top left.
-	* src is a link to the image and should end in .png.
+### Make the script your own and add your templates
+1. Make the script
+	1. In your web browser open Extensions > TamperMonkey > dashboard.
+	2. Open the script /r/Place Enter the Gungeon template.
+	3. Copy the contents and paste it in a new script.
+	4. Rename the script by changing this line `// @name         /r/Place Enter the Gungeon template`.
+		* The spaces between @name and /r/ must not be altered.
+2. Add/replace the templates in list.
+	1. Find this array `const imgs`.
+	2. Replace the objects with your templates.
+		* name is used for the button togglers in top left.
+		* src is a link to the image and should end in .png.
 
 
 
